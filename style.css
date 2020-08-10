@@ -104,17 +104,26 @@ header .bottom-navbar-right button {
   grid-gap: 8px 0;
 }
 
+.big-headline-brand {
+  position: absolute;
+  display: none;
+  width: 400px;
+  top: 20px;
+  left: 20px;
+}
+
 .big-headline,
 .featured-headline {
   height: 30vh;
   padding: 0 0.5rem 0.8rem 0.5rem;
   background-size: cover;
   background-repeat: no-repeat;
-
 }
 
 .big-headline {
-  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/08/allie-Zru_wUAcU8g-unsplash-e1597037922759-796x419.jpg );
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/08/allie-Zru_wUAcU8g-unsplash-e1597037922759-796x419.jpg) no-repeat;
+  position: relative;
+  background: rgba(0,0,0,0) url(https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png) repeat;
 }
 
 .featured-headline {
@@ -189,8 +198,9 @@ header .bottom-navbar-right button {
     }
 
     /* showcase */
+
     .showcase {
-      grid-template-columns: 66vw 34vw;
+      grid-template-columns: 65vw 32vw;
       grid-template-rows: 1fr 1fr;
       grid-gap: 10px;
     }
@@ -203,12 +213,46 @@ header .bottom-navbar-right button {
     .article-metadata .shared {
       display: none;
     }
+
+    .big-headline .article-title {
+      font-size: 2.3rem;
+      font-weight: 900;
+    }
   }
 
 @media only screen and (min-width: 1024px) { 
+
+    /* header */
+
     .brand {
       display: none;
     }
+
+    /* showcase */
+
+    .big-headline {
+      padding: 0 1.2rem 1.4rem 1.2rem;
+    }
+
+    .featured-headline {
+      height: 40vh;
+      padding: 0 0.8rem 1rem 0.8rem;
+    }
+
+    .featured-headline .article-title {
+      font-size: 1.7rem;
+    }
+
+    .big-headline .article-title {
+      font-size: 3rem;
+      font-weight: 900;
+      margin-bottom: 40px;
+    }
+
+    .big-headline-brand {
+        display: block;
+    }
+
   }
 
 @media only screen and (min-width: 1215px) { 
