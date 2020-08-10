@@ -106,8 +106,19 @@ header .bottom-navbar-right button {
 
 .big-headline,
 .featured-headline {
-  border: 1px solid red;
-  padding: 6rem 0.5rem 0.8rem 0.5rem;
+  height: 30vh;
+  padding: 0 0.5rem 0.8rem 0.5rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.big-headline {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/08/allie-Zru_wUAcU8g-unsplash-e1597037922759-796x419.jpg );
+}
+
+.featured-headline {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/08/image-5-796x417.png);
 }
 
 .showcase .article-category {
@@ -130,6 +141,11 @@ header .bottom-navbar-right button {
   margin-right: 1rem;
 }
 
+.showcase article {
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+}
 
 /* media query */
 
@@ -169,6 +185,22 @@ header .bottom-navbar-right button {
     }
 
     .nav-toggler {
+      display: none;
+    }
+
+    /* showcase */
+    .showcase {
+      grid-template-columns: 66vw 34vw;
+      grid-template-rows: 1fr 1fr;
+      grid-gap: 10px;
+    }
+
+    .big-headline { 
+      grid-row: 1 / span 2;
+      height: 100%;
+    }
+
+    .article-metadata .shared {
       display: none;
     }
   }
