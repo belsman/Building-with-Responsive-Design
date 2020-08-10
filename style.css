@@ -1,0 +1,57 @@
+
+/* global */
+
+body {
+  max-width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body section,
+body footer {
+    display: none;
+}
+
+.flex {
+  display: flex;
+}
+
+ul {
+  list-style: none;
+}
+
+.orange-color {
+  color: #f42;
+}
+
+/* header */
+
+.top-navbar,
+.bottom-navbar-left {
+  display: none;
+}
+
+header {
+    justify-content: space-between;
+}
+
+header .brand {
+  background-color: #f42;
+  background: linear-gradient(to bottom right,#c09,#f42 85%); 
+  width: 106px; 
+  height: 48px; 
+  padding: 16px 20px; 
+}
+
+header .bottom-navbar-right {
+
+}
+
+header .bottom-navbar-right button {
+  padding: 14px 16px;
+  background-color: white;
+  border: transparent;
+  border-left: solid lightgray 1px;
+}
