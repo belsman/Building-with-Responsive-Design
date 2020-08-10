@@ -3,6 +3,7 @@
 
 body {
   max-width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 * {
@@ -12,6 +13,11 @@ body {
 body section,
 body footer {
     display: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
 }
 
 .flex {
@@ -30,6 +36,11 @@ ul {
   justify-content: space-between;
 }
 
+.align-items-center {
+  align-items: center;
+}
+
+
 /* header */
 
 .top-navbar,
@@ -40,9 +51,12 @@ ul {
 header .brand {
   background-color: #f42;
   background: linear-gradient(to bottom right,#c09,#f42 85%); 
-  width: 106px; 
-  height: 48px; 
-  padding: 16px 20px; 
+  width: 106px;
+  padding: 16px 20px;
+}
+
+header .brand img {
+  margin: auto 0;
 }
 
 header .bottom-navbar-right {
@@ -51,16 +65,55 @@ header .bottom-navbar-right {
 
 header .bottom-navbar-right button {
   padding: 14px 16px;
-  background-color: white;
+  background-color: inherit;
+  color: inherit;
   border: transparent;
   border-left: solid lightgray 1px;
 }
 
+.header-md-hide {
+  display: none;
+}
+
 /* media query */
 
-@media only screen and (min-width: 768px) {
-    .top-navbar {
-      display: block;
-      border: 1px solid black;
+@media only screen and (min-width: 768px) {    
+    header .brand {
+      padding-top: 30px;
+    }
+
+    .navbars {
+      width: 100%;
+    }
+
+    .navbars .top-navbar {
+      background-color: #111;
+      color: #eee;
+      padding: 0.6em 0;
+      justify-content: space-between;
+      display: flex;
+      font-size: 13px;
+    }
+
+    .navbars .top-navbar li {
+      margin: 0 7px;
+    }
+
+    .navbars .bottom-navbar {
+      background-color: #f9f9f9;
+      color: #555;
+      font-size: 13px;
+    }
+
+    .navbars .bottom-navbar-left li {
+      margin: 0 10px;
+    }
+
+    .navbars .bottom-navbar-left {
+      display: flex;
+    }
+
+    .nav-toggler {
+      display: none;
     }
   }
