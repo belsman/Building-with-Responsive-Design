@@ -15,11 +15,6 @@ body footer {
     display: none;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
 .flex {
   display: flex;
 }
@@ -40,12 +35,33 @@ ul {
   align-items: center;
 }
 
+/* links */
+
+a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+/* hover */
+
+.top-navbar a:hover {
+  color: white;
+}
+
+.bottom-navbar a:hover {
+  color: black;
+}
 
 /* header */
 
 .top-navbar,
 .bottom-navbar-left {
   display: none;
+}
+
+.top-navbar {
+  background-color: #111;
+  color: rgb(145, 145, 145);
 }
 
 header .brand {
@@ -57,10 +73,6 @@ header .brand {
 
 header .brand img {
   margin: auto 0;
-}
-
-header .bottom-navbar-right {
-
 }
 
 header .bottom-navbar-right button {
@@ -87,8 +99,7 @@ header .bottom-navbar-right button {
     }
 
     .navbars .top-navbar {
-      background-color: #111;
-      color: #eee;
+
       padding: 0.6em 0;
       justify-content: space-between;
       display: flex;
@@ -96,7 +107,7 @@ header .bottom-navbar-right button {
     }
 
     .navbars .top-navbar li {
-      margin: 0 7px;
+      margin: 0 8px;
     }
 
     .navbars .bottom-navbar {
@@ -106,7 +117,7 @@ header .bottom-navbar-right button {
     }
 
     .navbars .bottom-navbar-left li {
-      margin: 0 10px;
+      margin: 0 8px;
     }
 
     .navbars .bottom-navbar-left {
@@ -115,5 +126,17 @@ header .bottom-navbar-right button {
 
     .nav-toggler {
       display: none;
+    }
+  }
+
+@media only screen and (min-width: 1024px) { 
+    .brand {
+      display: none;
+    }
+  }
+
+@media only screen and (min-width: 1215px) { 
+    .header-md-hide {
+      display: block;
     }
   }
