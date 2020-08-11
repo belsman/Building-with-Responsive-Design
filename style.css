@@ -299,6 +299,33 @@ header .bottom-navbar-right button {
   font-size: 0.75rem;
 }
 
+/* Hard fork, Gears and Apps section */
+
+.variety-news-poster {
+  background-image: url(https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F08%2Fongkong.jpg&signature=173e025e778201e1d8e0161243f0606b);
+  height: 65vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: flex-end;
+  padding: 0.7rem
+}
+
+.variety-news-label {
+  margin-bottom: 0.4rem;
+}
+
+.variety-news-poster .article-title {
+  margin-bottom: 0.5rem;
+}
+
+.variety-news-img-container {
+  background-image: url(https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F08%2Fongkong.jpg&signature=173e025e778201e1d8e0161243f0606b);
+  height: 96px;
+  width: 96px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 /* media query */
 
 @media only screen and (min-width: 768px) {    
