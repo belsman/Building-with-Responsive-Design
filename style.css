@@ -79,7 +79,6 @@ ul {
   display: table;
   content: "";
 }
-
 /* links */
 
 a {
@@ -324,6 +323,20 @@ header .bottom-navbar-right button {
   width: 96px;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.variety-news-related {
+  /* padding: 0 1rem; */
+  list-style-type: disc;
+}
+
+.variety-news-related li {
+  margin: 0.75rem 0;
+  margin-left: 1rem;
+}
+
+.variety-news-related li a {
+  display: block;
 }
 
 /* media query */
