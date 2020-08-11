@@ -299,6 +299,9 @@ header .bottom-navbar-right button {
 }
 
 /* Hard fork, Gears and Apps section */
+.variety-news-card {
+  margin: 2rem 0;
+}
 
 .variety-news-poster {
   background-image: url(https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F08%2Fongkong.jpg&signature=173e025e778201e1d8e0161243f0606b);
@@ -327,16 +330,27 @@ header .bottom-navbar-right button {
 
 .variety-news-related {
   /* padding: 0 1rem; */
-  list-style-type: disc;
+  list-style-type: none;
+  list-style-position: inside;
 }
 
 .variety-news-related li {
-  margin: 0.75rem 0;
-  margin-left: 1rem;
+  border-bottom: 1px solid #ccc;
 }
 
-.variety-news-related li a {
+.variety-news-related a::before {
+  content: "\2022";
+  color: #f42;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1rem;
+}
+
+.variety-news-related a {
   display: block;
+  margin-left: 1rem;
+  padding: 0.5rem 0;
 }
 
 /* media query */
