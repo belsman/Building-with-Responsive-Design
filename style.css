@@ -60,6 +60,12 @@ ul {
   margin-bottom: 1rem;
 }
 
+.article-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 0.6rem;
+}
+
 /* links */
 
 a {
@@ -149,12 +155,6 @@ header .bottom-navbar-right button {
   margin-bottom: 0.6rem;
 }
 
-.showcase .article-title {
-  font-size: 1.2rem;
-  font-weight: 700;
-  margin-bottom: 0.6rem;
-}
-
 .article-metadata {
   color: rgb(145, 145, 145);
   font-size: 0.8rem;
@@ -170,7 +170,7 @@ header .bottom-navbar-right button {
   height: 100%;
 }
 
-/* Latest new section */
+/* Latest news section */
 
 .latest-news article {
   margin: 0 0 0.8rem 0;
@@ -198,6 +198,39 @@ header .bottom-navbar-right button {
 .latest-news .article-metadata {
   margin-top: 0.7rem;
 }
+
+/* Latest fundings section */
+
+.latest-funding-container-titel-1 {
+  background-color: #f42;
+  color: white;
+  margin-bottom: 0;
+}
+
+.latest-funding-container-titel-2 {
+  background-color: rgb(248, 146, 128);
+  color: black;
+}
+
+.latest-funding-container-titel-2 p{
+  color: #555;
+}
+
+.latest-funding-container-options {
+  background-color: rgb(255, 206, 197);
+  color: #555;
+}
+
+.latest-funding-container-credits {
+  background-color: rgb(255, 206, 197);
+  color: #555;
+}
+
+.latest-funding-container-credits a span {
+  color: #888;
+}
+
+
 
 /* media query */
 
