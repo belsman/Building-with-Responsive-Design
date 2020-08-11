@@ -391,27 +391,16 @@ header .bottom-navbar-right button {
     /* Latest Funding */
 
     .latest-funding-headline {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-    }
-
-    .latest-funding-headline-left {
-      align-items: flex-end;
+      flex-direction: column;
     }
 
     .latest-funding-headline-right {
       flex-direction: row;
-      height: auto;
-      align-items: flex-end;
     }
 
-    .latest-funding-headline-right li {
-      margin-left: 1rem;
-    }
-
-    .latest-funding-headline-right li.pipe::after {
-      margin-left: 1rem;
+    .latest-funding-headline-right li.pipe::after,
+    .latest-funding-headline-right li.pipe::before    {
+      margin: 0 1rem;
       content: "\007C"
     }
 
@@ -498,8 +487,19 @@ header .bottom-navbar-right button {
     }
 
     /* Latest Funding */
+
+    .latest-funding-headline {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    .latest-funding-headline-left {
+      align-items: flex-end;
+    }
+
     .latest-funding-headline-right {
       flex-direction: row-reverse;
+      align-items: flex-end;
     }
 
     .funding-4 {
