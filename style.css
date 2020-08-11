@@ -46,6 +46,18 @@ ul {
   color: white;
 }
 
+.big-section-container {
+  padding: 0 1rem;
+}
+
+.h3-headline {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #f42;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
 /* links */
 
 a {
@@ -141,7 +153,7 @@ header .bottom-navbar-right button {
   margin-bottom: 0.6rem;
 }
 
-.showcase .article-metadata {
+.article-metadata {
   color: rgb(145, 145, 145);
   font-size: 0.8rem;
 }
@@ -154,6 +166,37 @@ header .bottom-navbar-right button {
   flex-direction: column;
   justify-content: flex-end;
   height: 100%;
+}
+
+/* Latest new section */
+.latest-news article {
+  border: 1px solid red;
+  margin: 0 0 0.8rem 0;
+}
+
+.latest-news a.latest-news-img {
+  width: 75px;
+  height: 75px;
+  border: 1px solid red;
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/08/Untitled-design-2020-08-10T180435.460-516x270.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.latest-news .latest-news-description {
+  padding-left: 0.8rem;
+  flex: 70%;
+}
+
+.latest-news .latest-news-description h4 {
+  font-weight: 600;
+  line-height: 1.2rem;
+  color: #222;
+}
+
+.latest-news .article-metadata {
+  margin: 0.7rem 0;
 }
 
 /* media query */
@@ -251,6 +294,10 @@ header .bottom-navbar-right button {
 
     .big-headline-brand {
         display: block;
+    }
+
+    .article-metadata .shared {
+      display: block;
     }
 
   }
