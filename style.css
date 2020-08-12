@@ -152,7 +152,7 @@ a {
   height: 0.6rem;
 }
 
-header .brand img {
+.brand img {
   width: 65%;
   position: absolute;
   top: 15px;
@@ -172,7 +172,7 @@ header .brand img {
   margin-right: 6px;
 }
 
-header .bottom-navbar-right button {
+.bottom-navbar-btn {
   padding: 14px 16px;
   background-color: inherit;
   color: inherit;
