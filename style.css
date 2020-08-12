@@ -128,11 +128,14 @@ header .brand {
   background-color: #f42;
   background: linear-gradient(to bottom right,#c09,#f42 85%); 
   width: 106px;
-  padding: 16px 20px;
+  position: relative;
 }
 
 header .brand img {
-  margin: auto 0;
+  width: 65%;
+  position: absolute;
+  top: 15px;
+  left: 17px;
 }
 
 header .bottom-navbar-right button {
@@ -531,6 +534,13 @@ header .bottom-navbar-right button {
 
     .nav-toggler {
       display: none;
+    }
+
+    header .brand img {
+      width: 65%;
+      position: absolute;
+      top: 28px;
+      left: 15px;
     }
 
     /* showcase */
