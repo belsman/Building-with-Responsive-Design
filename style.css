@@ -178,6 +178,7 @@ header .bottom-navbar-right button {
 .featured-headline {
   background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 70%, rgba(0, 0, 0, 1)), 
     url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/08/image-5-796x417.png);
+    background-position: 50%;
 }
 
 .showcase .article-category {
@@ -224,6 +225,10 @@ header .bottom-navbar-right button {
   font-weight: 600;
   line-height: 1.2rem;
   color: #222;
+}
+
+.latest-news-deals .latest-news-deals-description a {
+  margin-right: 15px;
 }
 
 .latest-news-deals .article-metadata {
@@ -341,11 +346,12 @@ header .bottom-navbar-right button {
 }
 
 .variety-news-img-container {
-  background-image: url(https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F08%2Fongkong.jpg&signature=173e025e778201e1d8e0161243f0606b);
+  background-image: url(https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2019%2F08%2Fbitcoin_today-header_bitcoin_today.jpg&signature=b75eca35f42accc83310a4fa4e562088);
   height: 96px;
   width: 96px;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: 100%;
 }
 
 .variety-news-related {
@@ -386,6 +392,27 @@ header .bottom-navbar-right button {
 }
 
 /* latest deals */
+
+.latest-deals article {
+  position: relative;
+}
+
+.triangle-topright {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-top: 100px solid red;
+  border-left: 100px solid transparent;
+}
+
+.discount {
+  position: absolute;
+  transform: rotate(45deg);
+  top: 20px;
+  right: 20px;
+}
 
 .latest-deals-discount {
   font-size: 1.2rem;
