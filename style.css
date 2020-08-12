@@ -19,7 +19,7 @@ main {
 }
 
 body section {
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
 }
 
 .flex {
@@ -461,6 +461,16 @@ header .bottom-navbar-right button {
 /* media query */
 
 @media only screen and (min-width: 768px) {    
+
+    /* global */
+
+    body section {
+      margin-bottom: 5rem;
+    }
+
+    /* header */
+   
+
     header .brand {
       padding-top: 30px;
     }
