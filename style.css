@@ -372,7 +372,7 @@ header .bottom-navbar-right button {
 }
 
 .variety-news-related li {
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #eee;
   color: #333;
 }
 
@@ -393,27 +393,6 @@ header .bottom-navbar-right button {
 
 /* latest deals */
 
-.latest-deals article {
-  position: relative;
-}
-
-.triangle-topright {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 0;
-  height: 0;
-  border-top: 100px solid red;
-  border-left: 100px solid transparent;
-}
-
-.discount {
-  position: absolute;
-  transform: rotate(45deg);
-  top: 20px;
-  right: 20px;
-}
-
 .latest-deals-discount {
   font-size: 1.2rem;
 }
@@ -430,6 +409,10 @@ header .bottom-navbar-right button {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%;;
+}
+
+.discount {
+  display: none;
 }
 
 /* topfooter */
@@ -647,6 +630,31 @@ header .bottom-navbar-right button {
     .latest-deals article {
       height: 32vw;
     }
+
+    .latest-news-deals-img-link {
+      position: relative;
+    }
+    
+    .triangle-topright {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 0;
+      height: 0;
+      border-top: 75px solid rgb(245, 245, 33);
+      border-left: 75px solid transparent;
+    }
+    
+    .discount {
+      display: block;
+      position: absolute;
+      transform: rotate(45deg);
+      top: 20px;
+      right: 5px;
+      font-size: 0.8rem;
+      font-weight: bold;
+    }
+    
 
     /* topfooter */
 
