@@ -67,7 +67,6 @@ ul {
 .h3-headline {
   font-size: 1.5rem;
   font-weight: 700;
-  color: #f42;
   margin-top: 2rem;
   margin-bottom: 1rem;
 }
@@ -322,7 +321,6 @@ header .brand {
 
 .latest-funding-container-options,
 .latest-funding-container-credits {
-  color: #444;
   background-color: rgb(255, 247, 246);
 }
 
@@ -406,7 +404,6 @@ header .brand {
 
 .variety-news-latest {
   background-color: rgb(255, 247, 246);
-  color: #f42;
 }
 
 .variety-news-latest p {
