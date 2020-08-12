@@ -515,6 +515,14 @@ header .brand {
     margin-bottom: 5rem;
   }
 
+  .flex-medium {
+    display: flex;
+  }
+
+  .jc-md-space-between {
+    justify-content: space-between;
+  }
+
   /* header */
 
   header .brand {
@@ -527,8 +535,6 @@ header .brand {
 
   .navbars .top-navbar {
     padding: 0.6em 0;
-    justify-content: space-between;
-    display: flex;
     font-size: 13px;
   }
 
@@ -544,10 +550,6 @@ header .brand {
 
   .navbars .bottom-navbar-left li {
     margin: 0 8px;
-  }
-
-  .navbars .bottom-navbar-left {
-    display: flex;
   }
 
   .nav-toggler {
@@ -619,10 +621,6 @@ header .brand {
   .latest-funding-headline-right li.pipe::before {
     margin: 0 1rem;
     content: "\007C";
-  }
-
-  .latest-funding-container {
-    display: flex;
   }
 
   .latest-funding-container article.funding-1,
