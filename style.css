@@ -114,6 +114,11 @@ a {
 
 /* header */
 
+header {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 3rem;
+}
+
 .top-navbar,
 .bottom-navbar-left {
   display: none;
@@ -332,7 +337,7 @@ header .bottom-navbar-right button {
 .variety-news-poster {
   background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 60%, rgba(0, 0, 0, 1)),
     url(https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F08%2Fongkong.jpg&signature=173e025e778201e1d8e0161243f0606b);
-  height: 65vh;
+  height: 30vh;
   background-size: cover;
   background-repeat: no-repeat;
   align-items: flex-end;
@@ -395,6 +400,21 @@ header .bottom-navbar-right button {
 }
 
 /* latest deals */
+
+.latest-deal-header {
+  width: 100%;
+}
+
+.latest-deal-header h3 {
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+.latest-deal-header div {
+  float: right;
+  padding: 0.5rem;
+}
 
 .latest-deals-discount {
   font-size: 1.2rem;
