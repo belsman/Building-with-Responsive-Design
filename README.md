@@ -8,7 +8,7 @@ An HTML and CSS mockup of the homepage of the next web. We used Grid and Flexbox
 
 ## Live demo
 
-🔗 [TheNextWeb Website Clone](https://raw.githack.com/belsman/Building-with-Responsive-Design/develop/index.html)
+🔗 [TheNextWeb Website Clone](https://rawcdn.githack.com/belsman/Building-with-Responsive-Design/7a9c41e756b39650145ffc75dfecb6bafd717b8c/index.html)
 
 ## Built With
 
